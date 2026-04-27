@@ -1,32 +1,18 @@
-# Interactive Python shell.
-ipython
-# Jupyter notebook/lab support.
-ipykernel
-# Jupyter lab.
-jupyterlab
-# Jupyter notebook.
+# Jupyter notebook environment
 notebook
-# Numerical arrays.
-numpy
-# Data Frames.
-pandas
-# Scientific computing.
-scipy
-# Statistical modeling.
-statsmodels
-# Download financial market data.
-yfinance
-# Plotting.
-matplotlib
-# Statistical data visualization.
-seaborn
-# Quantum computing.
+ipykernel
+
+# Quantum circuit construction
 qiskit[visualization]
-# Quantum simulators.
+
+# Quantum simulator
 qiskit-aer
-# Machine learning.
-scikit-learn
-# Symbolic mathematics.
-sympy
-# Testing.
+
+# Numerical support (used internally by Qiskit)
+numpy
+
+# Plotting (used by Qiskit circuit visualisation)
+matplotlib
+
+# Testing
 pytest
