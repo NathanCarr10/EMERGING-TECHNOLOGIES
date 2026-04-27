@@ -1,7 +1,7 @@
-# Emerging Technologies Assessment — Classical vs Quantum Algorithms (Deutsch / Deutsch–Jozsa)
+# Emerging Technologies Assessment - Classical vs Quantum Algorithms (Deutsch / Deutsch–Jozsa)
 
-4th Year Computing — ATU Galway 2025/26  
-**Nathan Carr — G00410214**
+4th Year Computing in Software Development - ATU Galway 2025/26  
+**Nathan Carr - G00410214**
 
 This repository contains my submission for the **Emerging Technologies (Summer 25/26)** assessment.
 
@@ -21,7 +21,7 @@ The notebook covers:
 
 | File | Description |
 |---|---|
-| `problems.ipynb` | Main submission notebook — all five problems with explanations, code, and results |
+| `problems.ipynb` | Main submission notebook - all five problems with explanations, code, and results |
 | `requirements.txt` | Python dependencies needed to run the notebook |
 | `.gitignore` | Excludes virtual environments, caches, and editor files |
 
@@ -69,9 +69,9 @@ Then run all cells: **Kernel → Restart & Run All**
 
 The main libraries used are:
 
-- [Qiskit](https://qiskit.org/) — quantum circuit construction and simulation
-- [Qiskit Aer](https://qiskit.github.io/qiskit-aer/) — local quantum simulator backend
-- [Jupyter](https://jupyter.org/) — notebook environment
+- [Qiskit](https://qiskit.org/) - quantum circuit construction and simulation
+- [Qiskit Aer](https://qiskit.github.io/qiskit-aer/) - local quantum simulator backend
+- [Jupyter](https://jupyter.org/) - notebook environment
 
 All versions are pinned in `requirements.txt`.
 
@@ -81,11 +81,11 @@ All versions are pinned in `requirements.txt`.
 
 | Problem | Topic | Approach |
 |---|---|---|
-| 1 | Generating random Boolean functions | Classical — Python, itertools |
-| 2 | Classifying constant vs balanced functions | Classical — worst case 9 evaluations for n=4 |
-| 3 | Quantum oracles for 1-bit functions | Qiskit — X gate, CNOT |
-| 4 | Deutsch's algorithm | Qiskit — 1 oracle call, noiseless simulator |
-| 5 | Deutsch–Jozsa algorithm (4-bit) | Qiskit — 1 oracle call vs 9 classical |
+| 1 | Generating random Boolean functions | Classical - Python, itertools |
+| 2 | Classifying constant vs balanced functions | Classical - worst case 9 evaluations for n=4 |
+| 3 | Quantum oracles for 1-bit functions | Qiskit - X gate, CNOT |
+| 4 | Deutsch's algorithm | Qiskit - 1 oracle call, noiseless simulator |
+| 5 | Deutsch–Jozsa algorithm (4-bit) | Qiskit - 1 oracle call vs 9 classical |
 
 ---
 
@@ -103,14 +103,14 @@ The classical algorithm needs up to **9 function evaluations** to be certain whe
 
 - Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information*. Cambridge University Press.
 
-- IBM Quantum Learning — Deutsch's Algorithm:  
+- IBM Quantum Learning - Deutsch's Algorithm:  
   https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms/quantum-query-algorithms/deutsch-algorithm
 
-- IBM Quantum Learning — Deutsch–Jozsa Algorithm:  
+- IBM Quantum Learning - Deutsch–Jozsa Algorithm:  
   https://quantum.cloud.ibm.com/learning/en/modules/computer-science/deutsch-jozsa
 
 - Qiskit Documentation:  
   https://qiskit.org/documentation/
 
-- Python Documentation — itertools.product:  
+- Python Documentation - itertools.product:  
   https://docs.python.org/3/library/itertools.html#itertools.product
